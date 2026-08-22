@@ -37,7 +37,7 @@ window.addEventListener('mousemove', (e) => {
     const deltaY = (e.clientY - centerY) / (window.innerHeight / 2);
 
     // Dynamic angles and positioning values
-    const maxTilt = 14; 
+    const maxTilt = 50; 
     const maxMove = 10;
 
     const tiltX = -deltaY * maxTilt;
